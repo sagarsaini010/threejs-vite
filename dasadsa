@@ -1,0 +1,2 @@
+ "tailwind:build": "npx tailwindcss -i ./src/style.css -o ./src/output.css",
+    "dev:tailwind": "concurrently \"npm run dev\" \"npm run tailwind:build -- --watch\""
